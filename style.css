@@ -43,8 +43,6 @@ img {
   flex-wrap: wrap;
   gap: 5px 10px;
   margin: 20px auto 0;
-  width: 500px;
-  height: 1500px;
 }
 @media(min-width:1000px){
  .main{
