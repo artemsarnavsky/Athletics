@@ -1,10 +1,12 @@
 
+
 img {
   display: block;
   width: 200px;
   height: 200px;
   border-radius: 100px;
   margin: 10px auto 0 ;
+  transition: 1s ;
 }
 .card {
   position: relative;
@@ -62,38 +64,63 @@ img {
 
  }
 
+
 .card:nth-child(1):hover::after {
   content: "Boxing, $85.5M";
-
 }
 
 .card:nth-child(2):hover::after {
-  content: "Basketball, $85.5M";
+  content: "Football, 100M";
 }
 
 .card:nth-child(3):hover::after {
-  content: "Basketball, $85.5M";
+  content: "Football, 95.3M";
 }
 
 .card:nth-child(4):hover::after {
-  content: "Basketball, $85.5M";
+  content: "Martial arts, 50.5M";
 }
 
 .card:nth-child(5):hover::after {
-  content: "Basketball, $85.5M";
+  content: "Football, 75.6M";
 }
 
 .card:nth-child(6):hover::after {
-  content: "Basketball, $85.5M";
+  content: "Basketball, 86.6M";
 }
 
 .card:nth-child(7):hover::after {
-  content: "Basketball, $85.5M";
+  content: "Tenis, 20M";
 }
 
 .card:nth-child(8):hover::after {
+  content: "American football, 20.2M";
+}
+
+.card:nth-child(9):hover::after {
+  content: "American football, 31.5M";
+}
+
+.card:nth-child(10):hover::after {
   content: "Basketball, $85.5M";
 }
+
+@media (min-width: 1000px){
+    .main{
+      gap:0px,0px;
+      width:1000px;
+      height:1000px;
+    }
+}
+@media (min-width: 1500px){
+  .main{
+    gap:0px,0px;
+    width:1000px;
+    height:1000px;
+  }
+}
+
+
 
 .card:nth-child(9):hover::after {
   content: "Basketball, $85.5M";
