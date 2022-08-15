@@ -59,8 +59,7 @@ img {
  .card:hover::after{
   display:flex;
   justify-content: center;
-
-
+  border-radius: 60px;
  }
 
 
