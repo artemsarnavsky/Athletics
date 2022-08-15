@@ -1,11 +1,13 @@
 
 
+
 img {
   display: block;
   width: 200px;
   height: 200px;
   border-radius: 100px;
   margin: 10px auto 0 ;
+  transition: 1s ;
 }
 .card {
   position: relative;
@@ -49,17 +51,23 @@ img {
  }
 }
  .card:hover{
-  height: 287px;
-  margin-bottom: -46px;
-  background: grey;
-  z-index: 1;
-  transform: scale(1.2);
-
+    background: gray;
+    width: 220px;
+    height: 287px;
+    margin-bottom:-46px;
+    transform: scale(1.2);
+    z-index:1;
  }
+
+.card:hover img {
+    border-radius: 60px;
+  }
+
  .card:hover::after{
   display:flex;
   justify-content: center;
   border-radius: 60px;
+
  }
 
 
@@ -103,12 +111,18 @@ img {
   content: "Basketball, $85.5M";
 }
 
-
-.card:nth-child(9):hover::after {
-  content: "Basketball, $85.5M";
+@media (min-width: 1000px){
+    .main{
+      gap:0px,0px;
+      width:1000px;
+      height:1000px;
+    }
 }
-
-.card:nth-child(10):hover::after {
-  content: "Basketball, $85.5M";
+@media (min-width: 1500px){
+  .main{
+    gap:0px,0px;
+    width:1000px;
+    height:1000px;
+  }
 }
 
