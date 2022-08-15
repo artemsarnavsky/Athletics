@@ -6,7 +6,6 @@ img {
   height: 200px;
   border-radius: 100px;
   margin: 10px auto 0 ;
-  transition: 1s ;
 }
 .card {
   position: relative;
@@ -104,22 +103,6 @@ img {
 .card:nth-child(10):hover::after {
   content: "Basketball, $85.5M";
 }
-
-@media (min-width: 1000px){
-    .main{
-      gap:0px,0px;
-      width:1000px;
-      height:1000px;
-    }
-}
-@media (min-width: 1500px){
-  .main{
-    gap:0px,0px;
-    width:1000px;
-    height:1000px;
-  }
-}
-
 
 
 .card:nth-child(9):hover::after {
